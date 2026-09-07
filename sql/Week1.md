@@ -61,23 +61,28 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 ## 02-2. 데이터베이스 시작부터 끝까지 
 > **데이터베이스 만들기(68 ~ 71p)의 1~5과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/8a4fe43f-efbc-4c94-98fb-28681124b391" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/37c683ab-cdd7-486e-be1c-9691998ad3b5" />
+
+
 
 
 > **테이블 만들기(71 ~ 75p)의 1~7과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-> <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/124df196-e8b8-4ba0-b336-e46177baccb2" />
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/eb0045f0-c6e6-49b2-bba6-0fb089ebfc96" />
+><img width="2880" height="1800" alt="스크린샷 2026-09-04 151401" src="https://github.com/user-attachments/assets/8c9ad3e7-e997-440f-a23f-269c3ac35351" />
+ <img width="2880" height="1800" alt="스크린샷 2026-09-04 151722" src="https://github.com/user-attachments/assets/554fad0c-7dee-40e6-acdb-211bbe2b772f" />
+
 
 
 
 > **데이터 입력하기(75 ~ 79p)의 1~11과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/bd8ee6f4-a490-4ac7-9119-cddf8be7f46d" />
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/f7ee6c2a-a8e4-49ef-8c96-156c0fe10195" />
+<img width="2880" height="1800" alt="스크린샷 2026-09-04 153451" src="https://github.com/user-attachments/assets/16c479a4-06e1-49bc-8ffd-13945f289c75" />
+<img width="2880" height="1800" alt="스크린샷 2026-09-04 153636" src="https://github.com/user-attachments/assets/5ec01d23-453e-4724-bd0d-5fa92ccba212" />
+
 
 
 
 > **데이터 활용하기(80 ~ 83p)의 1~6과정 진행 후 과제 페이지에서 요구하는 인증사진을 첨부해주세요.**
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2f4515be-fb48-4595-bd1c-4f8e0b08382a" />
+<img width="2880" height="1800" alt="스크린샷 2026-09-04 154353" src="https://github.com/user-attachments/assets/0bb0f2e8-08e0-43b8-8f5f-715b78c28a70" />
+
 
 
 ---
