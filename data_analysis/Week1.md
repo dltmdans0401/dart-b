@@ -87,15 +87,17 @@ df.to_csv(): 데이터 프레임을 csv 파일로 저장하는 함수
 
 # 2️⃣ 수행 인증
 
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/dba675cb-3ed7-430a-be3b-bacd1ceb0008" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/61f9243a-7e24-46a4-b6e2-c8b9760bc54a" />
 <br>
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/642a973a-3c73-4f72-9625-8d4b1a0582c2" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/a80424b1-1cf6-4110-ac2a-f4e3ac2e3b92" />
 <br>
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/88e59efb-fd8a-4391-bb0c-b8fc920659a5" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/fcc593eb-37ed-4470-b03a-73ba04832436" />
 <br>
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/550c2ebf-e10a-496c-8bb7-021a1a04a93c" />
-<br>
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/ed00eb32-3f78-4a05-8b02-d5bf6842fbcb" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/c1a63395-b003-47a0-a85d-3f02b7fe063e" />
+
+
+
+
 
 
 
