@@ -54,7 +54,8 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터는 개념정리 없이 MySQL 설치 후 인증사진으로 대체합니다. -->
 
-<img width="2880" height="1800" alt="스크린샷(1)" src="https://github.com/user-attachments/assets/06779be5-94dd-4917-a21e-147813a67eab" />
+<img width="2880" height="1800" alt="스크린샷(1)" src="https://github.com/user-attachments/assets/30f89cef-8ca9-4839-89e2-16bebe64f01c" />
+
 
 
 
