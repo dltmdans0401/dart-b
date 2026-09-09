@@ -50,8 +50,9 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
 
 
-
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/cee61bd6-aee4-40c0-a8e1-5c70f38e294a" />
 <br>
+
 <br>
 
 # 3️⃣ 확인 문제
