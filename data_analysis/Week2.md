@@ -49,7 +49,8 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
 
-
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/4d7b0b3f-cb2c-4a31-8ffc-563c1260fe87" />
+<br>
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/cee61bd6-aee4-40c0-a8e1-5c70f38e294a" />
 <br>
 
@@ -69,7 +70,8 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 선택한 답과 그 이유를 간단히 서술해주세요!
+Scrapy
+코랩에서는 사용할 수 없지만 웹 스크래핑이 가능한 또 하나의 패키지이다. 
 ```
 
 
