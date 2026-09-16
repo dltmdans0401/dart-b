@@ -311,7 +311,8 @@ INSERT INTO orders VALUES
    - 생성 후 CALL로 실행 결과를 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/82928973-0416-40c5-ae5a-fc01362c964c" />
+
 
 
 ### 🎉 수고하셨습니다.
