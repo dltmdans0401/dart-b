@@ -312,6 +312,9 @@ INSERT INTO orders VALUES
 
 
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/82928973-0416-40c5-ae5a-fc01362c964c" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/484fcfbe-1d50-4f0f-a3b5-76d0842b6ce0" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/415afa2e-ffdd-4527-93cb-8cb94ad9b3ff" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/a086f105-9a9c-46f8-a100-0e189b5aa4d4" />
 
 
 
