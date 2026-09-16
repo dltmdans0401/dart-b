@@ -172,9 +172,9 @@ DELIMITER: SQL문의 종료문자인 ;를 다른 문자로 변환
 DELIMITER $$ ~~~~~ DELIMITER ;  
 
 스토어드 프로시저: 프로그래밍 기능을 가진 쿼리문  
-DELIMITER $$ -- 종료문자 변환  
+DELIMITER $$  
 CREATE PROCEDURE 프로시저명 BEGIN  
-~~~~~~~~~~~~~~~~~~~~ -- 프로시저 내부에서는 ; 사용  END $$ -- 프로시저 종료
+END $$ -- 프로시저 종료
 DELIMITER ; -- 종료문자를 다시 ;로 변환  
 CALL 프로시저명  
 
