@@ -115,9 +115,19 @@ df = df['열이름'].str.contains('\D', na = True)
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
 <!-- 이번 주차에는 API를 발급받는 과정도 포함하여 첨부해주세요.-->
 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/0c2669d8-fec2-4f9e-9537-0ca9ac8145fc" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/98f4a61f-1040-4c70-bb3f-4ce6ac509ad7" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2d871ffa-8cb0-4a18-8417-dc876acc6ff8" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/6f37de5c-661a-469c-bf03-675b96c2e9f5" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b7cc3962-bce4-468a-9ffe-216689e2331e" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/5ba5aa85-210d-4321-9004-369102b3eed0" />
 
-<br>
-<br>
+
 
 # 3️⃣ 확인 문제
 
