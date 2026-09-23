@@ -91,7 +91,43 @@ np.std(): 표준편차. 마찬가지로 판다스는 표본분산의 표준편�
 ## 02. 분포 요약하기
 
 <!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+import numpy as np  
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+plt.figure(figsize = (x축인치, y축인치))  
 
+plt.scatter([x축배열], [y축배열]): 산점도  
+plt.scatter([x축배열], [y축배열], alpha = 0.1)  
+#alpha = 0.1: 투명도 조절   
+
+plt.hist([데이터배열], bins = 5): 히스토그램  
+#bins = 5: 5개의 구간으로 나누기  
+np.histogram_bin_edges([데이터배열], bins = 5): 히스토그램의 구간경계를 배열로 출력  
+plt.yscale('log'): 한구간의 빈도수가 너무커서 다른구간이 안보일때 log스케일로 y구간 변환  
+plt.xscale('log'): 마찬가지로 x축 log스케일 변환  
+plt.xlim(하한, 상한): x축 시각화 범위 제한  
+plt.ylim(하한, 상한): y축 시각화 범위 제한  
+
+plt.boxplot(df[['x축변수', 'y축변수']] 혹은 열이 2개인 데이터프레임):  
+첫번째열은 x축, 두번째열은 y축으로 해서 박스플롯그리기  
+plt.boxplot(df[['x축변수', 'y축변수']], vert = False)    #수평 그리기  
+
+맷플롯립 기타 시각화 함수 종류  
+plt.plot(x, y): 선그래프: 변화와 추세를 보여줄 때  
+plt.bar(x, y): 막대그래프: 범주별 빈도나 크기를 보여줄 때  
+plt.barh(x, y): 수평막대그래프  
+plt.pie(데이터): 원형그래프: 전체에서 차지하는 비율을 보여줄 때   
+
+
+맷플롯립 기타 꾸미기 및 보조 함수  
+plt.title('제목'): 그래프의 제목 표기  
+plt.xlabel(): x축의 이름 표기  
+plt.ylabel(): y축의 이름 표기  
+plt.legend(): 범례(어떤 범주의 그래프인지 알려주는 표) 표기  
+plt.grid(True): 배경에 격자 표기  
+plt.subplot(행, 열, 인덱스): 총 몇행, 총 몇열의 서브플롯인지, 그리고 인덱스 옵션을 통해 현재 작업  할 부분을 설정  
+
+plt.show()  
 
 # 2️⃣ 수행 인증
 
@@ -101,6 +137,12 @@ np.std(): 표준편차. 마찬가지로 판다스는 표본분산의 표준편�
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/d46214ca-d443-40bb-af07-ff423b6b3139" />
 <br>
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/775c1588-8d48-4d88-aff6-dfc140631876" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/77d06d7c-80f2-4658-815e-b4cee7fc2649" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/0d2d9bde-7164-4ee6-be48-7f41dbec24da" />
+<br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/012124fa-f22d-470a-a08d-580be1bec02b" />
 
 
 
@@ -115,6 +157,7 @@ np.std(): 표준편차. 마찬가지로 판다스는 표본분산의 표준편�
 ```
 여기에 코랩 링크를 첨부해주세요!
 (제출 전, 코랩의 공유 설정을 ‘링크가 있는 모든 사용자가 보기 가능’으로 변경했는지 반드시 확인해주세요.)
+https://colab.research.google.com/drive/16n01Nr5FJA-gHysM1yndIxMpxL6Jnb23#scrollTo=2sJUc8T1Pqqm
 ```
 
 
