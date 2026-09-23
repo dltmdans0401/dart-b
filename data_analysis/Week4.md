@@ -39,6 +39,54 @@ https://www.youtube.com/watch?v=Cbk_tQtuhbM&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ## 01. 통계로 요약하기
 
 <!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+기술 통계: 정량적인 수치 (통계량)으로 데이터 요약하거나 시각화  
+통계량: 평균, 표준편차 등 표본의 수치적 요약   
+==> 이러한 데이터 분석 방법이 탐색적 데이터 분석 (EDA)  
+
+np.array(df['열이름']): df의 열의 값을 넘파이 시리즈 배열로 만든다.  
+
+df.describe(): 수치형 열에 대한 요약통계   
+df.describe(percentiles = [0.3~~]): 해당 분위수의 값도 조회가능  
+df.describe(include = 'object'): 문자형의 통계 조회  
+
+*df['열이름']과 df[['열이름']]의 차이!!!!!!!!!  
+df['열이름']: 시리즈 객체   
+df[['열이름']]: 데이터프레임 객체  
+
+#시리즈 객체로 함수를 실행할 수도 있다. 또한 열이름을 입력하지 않거나 [['열이름']] 형식으로 입력해  서 데이터프레임 객체로 함수를 실행하면 각 열의 함숫값을 데이터프레임형식으로 리턴한다.   
+#수치형 변수들에 대한 함수를 사용할 때 수치형으로 출력이 불가능한 함수가 있음에도   df.mean(numeric_only = True) 매개변수를 지정하지 않으면 오류가 난다.   
+df['열이름'].mean(): 평균  
+df['열이름'].median(): 중앙값  
+df['열이름'].mode(): 최빈값  
+df['열이름'].var(): 표본분산  
+df['열이름'].std(): 표준편차  
+df['열이름'].min(): 최솟값  
+df['열이름'].max(): 최댓값  
+df['열이름'].quantile([x, y...]): 각 분위수에 해당하는 값 시리즈 객체  
+df = df['열이름'].drop_duplicates()    #해당 열의 중복 제거  
+
+*해당 값의 백분위 구하기   
+#불리안 배열: True 혹은 False의 불리언 자료가 배열된 시리즈 객체. loc 함수의 매개변수로도 사용해서 해당 행과 열을 가져올 수 있다  
+df_flag = df['열이름'] < 10    # 불리언 배열 생성  
+df_flag.mean()    #True는 1이니까 평균내면 백분위 확인 가능  
+
+*브로드캐스팅  
+df['열이름1']/df['열이름2']: 각 대응 원소에 대해 계산한 시리즈 객체  
+
+*넘파이의 기술통계 함수  
+'''  
+판다스와 넘파이 기술통계 함수의 차이!!!!  
+판다스: 시리즈혹은데이터프레임.함수()  
+넘파이: np.함수(시리즈혹은데이터프레임)  
+'''  
+np.mean():    평균  
+np.average():    평균 (가중치를 매개변수로 부여할수도 있다.)  
+np.median(): 중앙값  
+np.min(): 최솟값  
+np.max(): 최댓값  
+np.quantile(): 분위수  
+np.var(): 분산. 다만 판다스는 n-1으로나누는데, 즉 표본분산을 구하는데 넘파이는 n으로 나눈다.   
+np.std(): 표준편차. 마찬가지로 판다스는 표본분산의 표준편차, 즉 n-로 나누고 제곱근 구하는데 넘파이  는 n으로 나누고 제곱근 구한다.   
 
 ## 02. 분포 요약하기
 
@@ -48,11 +96,14 @@ https://www.youtube.com/watch?v=Cbk_tQtuhbM&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 # 2️⃣ 수행 인증
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 3장 이상의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
-
-
-
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/27d3064c-f4e7-40f4-bcc3-66b0c4856a6e" />
 <br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/d46214ca-d443-40bb-af07-ff423b6b3139" />
 <br>
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/775c1588-8d48-4d88-aff6-dfc140631876" />
+
+
+
 
 # 3️⃣ 확인 문제
 
