@@ -38,26 +38,26 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 객체지향 API로 그래프 꾸미기
 
-객체지향 API로 그래프 조정 - 서브플롯 
-fig, ax = subplots(2,2,figsize = (10,7))
-ax[0,0].scatter()
-ax[0,0].set_title()
+객체지향 API로 그래프 조정 - 서브플롯   
+fig, ax = subplots(2,2,figsize = (10,7))  
+ax[0,0].scatter()  
+ax[0,0].set_title()  
 
-객체지향 API로 그래프 조정 - rcParams 객체 
-plt.rc('font', family = 'Malgun Gothic', size = 11)
-plt.rc('figure', dpi = 100) 
+객체지향 API로 그래프 조정 - rcParams 객체   
+plt.rc('font', family = 'Malgun Gothic', size = 11)  
+plt.rc('figure', dpi = 100)   
 
 ## 02. 맷플롯립의 고급 기능 배우기
 
-plt.stackplot(누적 영역 그래프) 
-plt.stackplot(x, y1, y2, labels = ['A', 'B'])
+plt.stackplot(누적 영역 그래프)   
+plt.stackplot(x, y1, y2, labels = ['A', 'B'])  
 
-plt.bar(막대그래프 쌓아올리기)
-plt.bar(x, y1, label = 'A')
-plt.bar(x, y2, bottom = y1, label = 'B')
+plt.bar(막대그래프 쌓아올리기)  
+plt.bar(x, y1, label = 'A')  
+plt.bar(x, y2, bottom = y1, label = 'B')  
 
-plt.pie(파이 차트)
-plt.pie(data, labels = labels)
+plt.pie(파이 차트)  
+plt.pie(data, labels = labels)  
 
 
 # 2️⃣ 수행 인증
