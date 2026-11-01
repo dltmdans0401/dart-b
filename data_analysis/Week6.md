@@ -38,11 +38,26 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 객체지향 API로 그래프 꾸미기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+객체지향 API로 그래프 조정 - 서브플롯 
+fig, ax = subplots(2,2,figsize = (10,7))
+ax[0,0].scatter()
+ax[0,0].set_title()
+
+객체지향 API로 그래프 조정 - rcParams 객체 
+plt.rc('font', family = 'Malgun Gothic', size = 11)
+plt.rc('figure', dpi = 100) 
 
 ## 02. 맷플롯립의 고급 기능 배우기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+plt.stackplot(누적 영역 그래프) 
+plt.stackplot(x, y1, y2, labels = ['A', 'B'])
+
+plt.bar(막대그래프 쌓아올리기)
+plt.bar(x, y1, label = 'A')
+plt.bar(x, y2, bottom = y1, label = 'B')
+
+plt.pie(파이 차트)
+plt.pie(data, labels = labels)
 
 
 # 2️⃣ 수행 인증
@@ -50,9 +65,16 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
 
 
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/4e61b0eb-bbe3-45fb-8930-cbc94c97e79f" />
 
 <br>
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/dbbc4747-56e1-4250-b584-0479791f9c8f" />
+
 <br>
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/2acd15a1-50d6-4b4c-b27c-e215de69a449" />
+
 
 # 3️⃣ 확인 문제
 
@@ -64,6 +86,7 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 여기에 코랩 링크를 첨부해주세요!
 (제출 전, 코랩의 공유 설정을 ‘링크가 있는 모든 사용자가 보기 가능’으로 변경했는지 반드시 확인해주세요.)
+https://colab.research.google.com/drive/13ssxqCpgPLQfUYpGMwv1H8I24TB7_BPz
 ```
 
 
