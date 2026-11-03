@@ -47,20 +47,56 @@ https://www.youtube.com/watch?v=aiMSluMNzI8&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/a8796983-47cf-449b-a98f-52b1e38d5c40" />
+
 
 
 ## 2. 파이썬과 MySQL의 연동
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/fa4b800f-68eb-41f0-8f12-bcc90dc2cf18" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/af331b0e-499c-452a-ba5e-f4bfb588a24d" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/46de0b60-269b-4560-bc40-ec9e22f0b1f2" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/76d38545-aae2-4d7d-af73-137effb7c3e0" />
+
+
 
 
 ## 3. GUI 응용 프로그램 
 
 <!-- GUI 응용 프로그램에 관해 배우게 된 점을 적어주세요. -->
+from tkinter import *  
+from tkinter iport messagebox  
 
+def clickbutton():  
+  messgagebox.showinfo('버튼누르면뜨는창제목', '버튼누르면뜨는창내용')  
+
+root = Tk()  
+
+root.title('제목')  
+root.geometry('400x200')    #창 크기  
+
+button1 = Button(root, text = '버튼에 출력할 텍스트', fg = '글자색', bg = '배경색',   
+command = clickButton)    #command는 버튼을 누르면 어떻게 되는지에 대한 매개변수   
+button1.pack(expand = 1)    #버튼을 화면 중앙에 표현하는 옵션  
+button1.pack(side = LEFT)    #버튼을 왼쪽부터 채워나가는 옵션   
+button1.pack(side = Top, fill = X, padx = 10, pady = 10)    #버튼사이에 여백 padx,pady로 생성  
+
+label1 = Label(root, text = '출력할 텍스트', font = ('폰트',크기), bg='배경색', fg='글자색')  
+label1.pack()    #pack()하면 화면에 출력됨  
+
+upframe = Frame(root)    #창 내부에 프레임 생성  
+downframe = Frmae(root)  
+upframe.pack()  
+downframe.pack()  
+editBox = Entry(upframe, width = 10)    #upframe을 한줄 입력창으로 설정  
+editBox.pack(padx=20, pady=20)  
+listbox = Listbox(downframe, bg = 'yellow')  #downfrmae을 여러개중 선택창으로 설정  
+listbox.pack()  
+listbox.insert(END, '하나')    #끝에다가 하나라는 항목을 넣기  
+
+root.mainloop()  
 
 ---
 
